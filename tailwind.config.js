@@ -9,6 +9,9 @@ export default {
             fontFamily: {
             roboto: ['Roboto', 'sans-serif'],
             },
+            screens: {
+              'vsm': '414px',
+            },
   },
   plugins: [],
 }}
