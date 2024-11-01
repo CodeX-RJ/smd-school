@@ -1,6 +1,8 @@
 import React from 'react'
 import School from '../assets/schoollogo.png'
 import Hamburger from '../assets/hamburger.svg'
+import { Link } from 'react-router-dom'
+import Student from '../pages/Student'
 
 function Navbar() {
   return (
@@ -24,25 +26,23 @@ function Navbar() {
 
         <ul className='flex flex-col items-center w-full text-xs sm:text-lg font-bold gap-2 mt-4 text-blue-600 md:flex-row md:items-center md:gap-4 md:text-sm md:mt-0 md:mr-2 lg:gap-8 xl:text-lg xl:gap-8 transition-all'>
                 <li className='hover:text-blue-900 cursor-pointer hover:underline hover:decoration-blue-800 hover:underline-offset-4 hover:decoration-2'>
-                    Home
+                    <Link to='/'>Home</Link>
                 </li>
                 <li className='hover:text-blue-900 cursor-pointer hover:underline hover:decoration-blue-800 hover:underline-offset-4 hover:decoration-2'>
-                    Facilities
+                    <Link to='/facilities'>Facilities</Link>
+                </li>
+        
+                <li className='hover:text-blue-900 cursor-pointer hover:underline hover:decoration-blue-800 hover:underline-offset-4 hover:decoration-2'>
+                     <Link to='/gallery'>Gallery</Link>
                 </li>
                 <li className='hover:text-blue-900 cursor-pointer hover:underline hover:decoration-blue-800 hover:underline-offset-4 hover:decoration-2'>
-                    Fees 
+                    <Link to='student'>Student</Link>
                 </li>
                 <li className='hover:text-blue-900 cursor-pointer hover:underline hover:decoration-blue-800 hover:underline-offset-4 hover:decoration-2'>
-                    Gallery
+                    <Link to='/about_us'>About Us</Link>
                 </li>
                 <li className='hover:text-blue-900 cursor-pointer hover:underline hover:decoration-blue-800 hover:underline-offset-4 hover:decoration-2'>
-                    Services
-                </li>
-                <li className='hover:text-blue-900 cursor-pointer hover:underline hover:decoration-blue-800 hover:underline-offset-4 hover:decoration-2'>
-                    About
-                </li>
-                <li className='hover:text-blue-900 cursor-pointer hover:underline hover:decoration-blue-800 hover:underline-offset-4 hover:decoration-2'>
-                    Contact
+                    <Link to='/contact_us'>Contact Us</Link>
                 </li>
         </ul>
     </nav>

@@ -3,6 +3,8 @@ import Schoolbuilding from '../assets/schoolbuilding.jpg'
 import Principle from '../assets/principle.jpg'
 import Manager from '../assets/manager.jpg'
 import Gem from '../assets/gem.png'
+import GallerySection from './GallerySection'
+
 function Home() {
   return (
     <>
@@ -84,6 +86,7 @@ function Home() {
       <button className='bg-blue-600 px-4 p-1 text-white mt-4 hover:text-blue-400 cursor-pointer w-fit lg:text-xl'>Explore Facilities</button>
     </section>
 
+    <GallerySection/>
 
     <section className='my-20 m-4'>
       <div className='flex flex-col gap-2 sm:flex-row sm:gap-5'>
