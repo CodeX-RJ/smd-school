@@ -2,21 +2,21 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className=" md:p-10 lg:p-20 pt-20 font-roboto grid place-items-center bg-slate-200">
+    <div className=" p-5 md:p-10 lg:p-20 pt-20 font-roboto grid place-items-center bg-slate-200 ">
       <h1 className='text-blue-600 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-bold mt-10 mb-32'>Contact Us</h1>
 
-      <h2 className='text-blue-600 w-full text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center p-2'>School's Contact Information</h2>
+      <h2 className='text-blue-600 w-full text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center'>School's Contact Information</h2>
 
-      <ul className='w-full p-20'>
+      <ul className='w-full px-10 py-5'>
         <h3 className='my-3 text-sm vsm:text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold'>St Junior Public School</h3>
         <li className='my-3 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'><span className='font-semibold'>Address:</span> Village-Amargarh, Post-Sitapur, District-Lucknow, Uttar Pradesh, India, 223209</li>
         <li className='my-3 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'><span className='font-semibold'>Phone:</span> +91 8838384564</li>
         <li className='my-3 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'><span className='font-semibold'>E-mail:</span> smd.public.school@gmail.com</li>
       </ul>
 
-      <h2 className='text-blue-600 w-full text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center p-2 mt-20'>See Our School on Map</h2>
+      <h2 className='text-blue-600 w-full text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center px-2 mt-20'>See Our School on Map</h2>
 
-      <div className="w-full h-96 m-20 flex justify-center">
+      <div className="w-full h-96 mt-5 m-20 flex justify-center">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14207.235853154618!2d80.90568543706756!3d27.099318875158243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39994e69158b65cf%3A0x490635d120ef36fa!2sMahona%2C%20Uttar%20Pradesh%20226203!5e0!3m2!1sen!2sin!4v1733230237619!5m2!1sen!2sin"
           className="relative inset-0 w-4/5 h-96 border border-blue-600 z-0"
@@ -31,9 +31,9 @@ function Contact() {
       
 
 
-      <h2 className='text-blue-600 w-full text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center p-2 mt-20'>Office and Visiting Hours </h2>
+      <h2 className='text-blue-600 w-full text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center px-2 mt-20'>Office and Visiting Hours </h2>
 
-      <ul className='w-full p-20'>
+      <ul className='w-full px-20'>
   
         <li className='my-3 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'><span className='font-semibold'>Office Hours:</span></li>
         <li className='my-3 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl list-disc ml-5'>Mon to Fri: 9:00 AM - 4:00 PM </li>
@@ -44,9 +44,9 @@ function Contact() {
 
 
       <div className="w-full p-5  bg-white rounded-md shadow-lg mt-20  border-blue">
-      <h2 className='text-blue-600 w-full text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center p-2 mb-10'>Contact Form</h2>
+      <h2 className='text-blue-600 w-full text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center px-2 mb-10'>Contact Form</h2>
 
-        <form action="https://formsubmit.co/ramakantjai91@gmail.com" method="POST" className="space-y-4">
+        <form action="https://formsubmit.co/ramakantjai91@gmail.com" method="POST" className="space-y-4 mx-5">
           {/* Name Field */}
           <div className=" mx-auto">
             <label htmlFor="name" className="block mb-1 font-medium text-black text-sm md:text-base">Name</label>

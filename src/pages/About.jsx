@@ -12,7 +12,7 @@ function About() {
         <div className='w-full md:w-1/3 flex justify-center'>
           <img src={Schoolbuilding} alt='abuot-us' className='w-full'></img>
         </div>
-        <div className='p-5 pl-0 md:w-4/6 md:pl-5 h-full'>
+        <div className=' pl-0 md:w-4/6 md:pl-5 h-full'>
           <h2 className='text-blue-600 font-bold text-xl md:text-2xl lg:text-3xl'>About Our School</h2>
           <p className='text-md lg:text-md'>Established in 2008, St Junior Public School is a cornerstone of education in Dharsanda, Baburigaon, Barabanki. Our school was founded with a vision to provide quality education to children in the community, nurturing their intellectual, emotional, and moral growth.</p>
           <p className='text-md lg:text-md'>
