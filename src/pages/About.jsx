@@ -1,5 +1,5 @@
 import React from 'react'
-import Schoolbuilding from '../assets/Schoolbuilding.jpg'
+import Schoolbuilding from '../assets/schoolbuilding.jpg'
 import Vision from '../assets/vision.png'
 import Mission from '../assets/mission.png'
 import Manager from '../assets/manager.jpg'
