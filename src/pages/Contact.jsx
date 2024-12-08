@@ -2,13 +2,13 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className="p-5 pt-20 font-roboto grid place-items-center bg-slate-200">
+    <div className=" md:p-10 lg:p-20 pt-20 font-roboto grid place-items-center bg-slate-200">
       <h1 className='text-blue-600 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-bold mt-10 mb-32'>Contact Us</h1>
 
-      <h2 className='text-blue-600 w-full text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center p-2'>School's Contact Information</h2>
+      <h2 className='text-blue-600 w-full text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center p-2'>School's Contact Information</h2>
 
       <ul className='w-full p-20'>
-        <h3 className='my-3 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold'>St Junior Public School</h3>
+        <h3 className='my-3 text-sm vsm:text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold'>St Junior Public School</h3>
         <li className='my-3 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'><span className='font-semibold'>Address:</span> Village-Amargarh, Post-Sitapur, District-Lucknow, Uttar Pradesh, India, 223209</li>
         <li className='my-3 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'><span className='font-semibold'>Phone:</span> +91 8838384564</li>
         <li className='my-3 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'><span className='font-semibold'>E-mail:</span> smd.public.school@gmail.com</li>
@@ -43,7 +43,7 @@ function Contact() {
       </ul>
 
 
-      <div className="w-full p-5 lg:max-w-2xl  bg-white rounded-md shadow-lg mt-20  border-blue">
+      <div className="w-full p-5  bg-white rounded-md shadow-lg mt-20  border-blue">
       <h2 className='text-blue-600 w-full text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center p-2 mb-10'>Contact Form</h2>
 
         <form action="https://formsubmit.co/ramakantjai91@gmail.com" method="POST" className="space-y-4">
