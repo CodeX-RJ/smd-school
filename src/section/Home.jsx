@@ -3,7 +3,7 @@ import Schoolbuilding from '../assets/schoolbuilding.jpg'
 import Principle from '../assets/principle.jpg'
 import Manager from '../assets/manager.jpg'
 import Gem from '../assets/gem.png'
-import GallerySection from './GallerySection'
+import GallerySection from './Gallerysection.jsx'
 import {Link} from 'react-router-dom'
 
 function Home() {
