@@ -62,7 +62,7 @@ function Footer() {
     </div>
     <div className='flex flex-col md:flex-row md:gap-10 justify-center items-center my-3 px-10 '>
       <p className='font-semibold text-sm md:text-sm lg:text-md xl:text-lg'>
-        &copy; 2024 St Junior Public School. All rights reserved. Designed by Ramakant Jai (RJ) 
+        &copy; 2024 St Junior Public School. All rights reserved. Developed by Ramakant Jai (RJ) 
       </p>
       <div className='flex flex-row gap-5 text-blue-600 font-semibold'>
         <span className='underline underline-offset-2 cursor-pointer hover:text-blue-400 text-sm md:text-md lg:text-lg xl:text-xl'>

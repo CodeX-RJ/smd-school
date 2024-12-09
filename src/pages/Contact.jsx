@@ -33,7 +33,7 @@ function Contact() {
 
       <h2 className='text-blue-600 w-full text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center px-2 mt-20'>Office and Visiting Hours </h2>
 
-      <ul className='w-full px-20'>
+      <ul className='w-full px-15'>
   
         <li className='my-3 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'><span className='font-semibold'>Office Hours:</span></li>
         <li className='my-3 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl list-disc ml-5'>Mon to Fri: 9:00 AM - 4:00 PM </li>
